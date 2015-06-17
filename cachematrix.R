@@ -2,7 +2,8 @@
 ## the inverse matrix. Each following call uses the cached matrix.
 ## inverseMatrix <- cacheSolve(makeCacheMatrix(my_matrix))
 
-## Function caches the inverse matrix.
+## This function caches the inverse matrix.
+## Introduces methods to access the actual and the inverse matrix.
 
 makeCacheMatrix <- function(x = matrix()) {
         i <- NULL
